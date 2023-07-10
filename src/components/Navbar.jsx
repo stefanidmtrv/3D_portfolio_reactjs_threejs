@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-{/* small screen */}
+        
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src = {toggle ? close : menu}
            alt="menu"
