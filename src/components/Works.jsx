@@ -14,7 +14,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         options={{
           max: 45,
           scale: 1,
-          sped: 450
+          speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
@@ -36,7 +36,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
             </div>
           </div>
 
-          <div classsName = "mt-5">
+          <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
