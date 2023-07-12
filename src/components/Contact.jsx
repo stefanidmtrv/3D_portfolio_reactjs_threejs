@@ -17,8 +17,39 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const {name, value } = e.target;
+    setForm({...form, [name]: value })
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send(
+      'service_y5jjhdr',
+      'template_kxr355f',
+      {
+        from_name: form.name,
+        to_name: 'Stefani',
+        from_email: form.email,
+        to_email: 'dimitrovastefani00@gmail.com',
+        message: form.message
+      },
+      'UYorcvAzRmQI5OooT',
+    ).then(() => {
+      setLoading(false);
+      alert('Thank you. I will get back to you as soon as possible.');
+
+      setForm({name: '', email: '', message: ''})
+    }, (error) => {
+      setLoading(false);
+      console.log(error);
+      alert('Something went wrong.')
+    }
+    
+    )
+
+
+  }
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -48,7 +79,7 @@ const Contact = () => {
         <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
 
-            <textarea rows="7" name="name" value={form.message} onChange={handleChange} placeholder="What do you want to say?"
+            <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder="What do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium">
             </textarea>
 
