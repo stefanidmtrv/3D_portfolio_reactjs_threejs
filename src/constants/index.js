@@ -16,13 +16,25 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    scott_logic,
+    swansea_uni,
     tesla,
     shopify,
     carrent,
+    raytracing,
     jobit,
     tripguide,
     threejs,
+    laravel,
+    cpp,
+    cs,
+    java,
+    python,
+    vega_lite,
+    roomcal,
+    crypto,
+    yoshan,
+    vidhi
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +58,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -54,35 +66,19 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Laravel Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,10 +89,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,66 +97,67 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "laravel",
+      icon: laravel,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "vega_lite",
+      icon: vega_lite,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "cs",
+      icon: cs,
+    },
+    {
+      name: "cpp",
+      icon: cpp,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Graduate Developer",
+      company_name: "Scott Logic",
+      icon: scott_logic,
+      iconBg: "#252525",
+      date: "November 2023 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working across web, mobile and desktop using a range of technologies including HTML5/JavaScript, C# .NET and Java.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Teaching Assistant",
+      company_name: "Swansea University",
+      icon: swansea_uni,
+      iconBg: "#FFFFFF",
+      date: "September 2021 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assessing, assisting, and guiding undergraduate and postgraduate computer science students with their laboratory exercises.",
+        "Explaining difficult concepts about concurrency, functional and logic programming, and web application development to students with different levels of technical abilities.",
+        "Working alongside experienced lecturers and students.",
+        "Gaining technical and communication skills.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Web Developer Intern",
+      company_name: "Swansea University",
+      icon: swansea_uni,
+      iconBg: "#FFFFFF",
+      date: "June 2021 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained the Careers website of Swansea University, using different technologies such as Nuxt.js, Vue.js, MySQL, HTML and CSS.",
+        "Used version control to collaborate with team members and track changes to the code.",
+        "Ensured all milestones and deadlines were met in time.",
+        "Collaborated with many people, internal and external to the university, to contribute to the success of the university.",
+        "Worked on a meaningful project that aligns with the employability team’s strategy."
       ],
     },
   ];
@@ -172,84 +165,51 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "She's okay, I guess.",
+      name: "Yoshan",
+      
+      image: yoshan,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+        "She's the most dramatic web developer I've met.",
+      name: "Vidhi",
+      
+      image: vidhi,
+    }
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ray Tracing in a Weekend",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A small ray-tracing project based on a tutorial by Peter Shirley.",
       tags: [
         {
-          name: "react",
+          name: "c++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ray-tracing",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+       
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: raytracing,
+      source_code_link: "https://github.com/stefanidmtrv/Ray-Tracing-in-one-Weekend",
     },
     {
-      name: "Job IT",
+      name: "Room Calendar",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The aim of this project was to have running touch screen tablets affixed to the outside of each room in the university, showing whether the room is currently free together with the schedule of the room.",
       tags: [
         {
-          name: "react",
+          name: "laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "web development",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +217,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: roomcal,
+      source_code_link: "https://github.com/stefanidmtrv/RoomCalendar",
+    },
+    {
+      name: "Cryptocurrency Mining App",
+      description:
+        "A website which gives information about cryptocurency mining and its impact on the environment.",
+      tags: [
+        {
+          name: "laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "cryptocurrencies",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crypto,
+      source_code_link: "https://github.com/stefanidmtrv/Web-app-4th-year",
     },
   ];
   
