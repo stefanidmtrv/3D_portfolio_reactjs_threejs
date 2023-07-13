@@ -12,6 +12,7 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import laravel from "./tech/laravel.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -20,10 +21,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.jpg";
+import cs from "./tech/cs.jpg";
+import java from "./tech/java.jpg";
+import python from "./tech/python.jpg";
+import vega_lite from "./tech/vega_lite.jpg";
+
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import scott_logic from "./company/scott_logic.png";
+import swansea_uni from "./company/swansea_uni.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -31,7 +42,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import sd_logo from './sd_logo.svg';
-
+import raytracing from './raytracing.png';
+import roomcal from './roomcal.png';
+import crypto from './crypto.png';
+import yoshan from './yoshan.jpg';
+import vidhi from './vidhi.jpg';
 export {
   logo,
   backend,
@@ -46,6 +61,7 @@ export {
   figma,
   git,
   html,
+  laravel,
   javascript,
   mongodb,
   nodejs,
@@ -62,4 +78,16 @@ export {
   jobit,
   tripguide,
   sd_logo,
+  scott_logic,
+  swansea_uni,
+  cpp,
+  cs,
+  java,
+  python,
+  vega_lite,
+  raytracing,
+  roomcal,
+  crypto,
+  yoshan,
+  vidhi
 };

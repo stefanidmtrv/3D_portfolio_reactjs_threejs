@@ -34,11 +34,11 @@ const About = () => {
       </motion.div>
       
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      I am an enthusiastic and resilient Computer Science graduate. I completed my Master's degree at
+       Swansea University with a First Class Honours Degree. I am passionate about software and web development, with experience in Java, 
+       Javascript, HTML, CSS and C#. I have experience in web development and MVC frameworks, gained from internships 
+       (Nuxt.js, Vue.js) and projects (Laravel), and I am currently learning React.js. I consider myself a good problem solver, 
+       willing to apply my skills and learn new technologies.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
