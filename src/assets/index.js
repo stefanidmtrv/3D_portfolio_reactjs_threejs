@@ -33,7 +33,6 @@ import vega_lite from "./tech/vega_lite.jpg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import scott_logic from "./company/scott_logic.png";
 import swansea_uni from "./company/swansea_uni.png";
 import tesla from "./company/tesla.png";
 
@@ -78,7 +77,6 @@ export {
   jobit,
   tripguide,
   sd_logo,
-  scott_logic,
   swansea_uni,
   cpp,
   cs,

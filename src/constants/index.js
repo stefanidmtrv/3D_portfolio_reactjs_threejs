@@ -16,7 +16,6 @@ import {
     figma,
     docker,
     meta,
-    scott_logic,
     swansea_uni,
     tesla,
     shopify,
@@ -124,16 +123,6 @@ import {
   
   const experiences = [
     {
-      title: "Graduate Developer",
-      company_name: "Scott Logic",
-      icon: scott_logic,
-      iconBg: "#252525",
-      date: "November 2023 - present",
-      points: [
-        "Working across web, mobile and desktop using a range of technologies including HTML5/JavaScript, C# .NET and Java.",
-      ],
-    },
-    {
       title: "Teaching Assistant",
       company_name: "Swansea University",
       icon: swansea_uni,
@@ -165,16 +154,14 @@ import {
   const testimonials = [
     {
       testimonial:
-        "She's okay, I guess.",
-      name: "Yoshan",
-      
+        "Talented, enthusiastic, and incredibly hard working.",
+      name: "Yoshan (Graduate Software Developer @ Virtual Arts)",
       image: yoshan,
     },
     {
       testimonial:
-        "She's the most dramatic web developer I've met.",
-      name: "Vidhi",
-      
+        "I have worked with Stefani on many projects. She's one of the most driven and easiest people to work with. It has been a pleasure to be her colleague.",
+      name: "Vidhi (Graduate Data Engineer @ Shell)",
       image: vidhi,
     }
     
