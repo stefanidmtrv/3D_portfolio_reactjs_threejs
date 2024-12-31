@@ -33,7 +33,8 @@ import {
     roomcal,
     crypto,
     yoshan,
-    vidhi
+    vidhi,
+    jd_power
   } from "../assets";
   
   export const navLinks = [
@@ -122,6 +123,14 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Graduate Software Developer",
+      company_name: "JD Power",
+      icon: jd_power,
+      iconBg: "#FFFFFF",
+      date: "September 2023 - Present",
+      points: [],
+    },
     {
       title: "Teaching Assistant",
       company_name: "Swansea University",

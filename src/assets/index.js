@@ -35,6 +35,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import swansea_uni from "./company/swansea_uni.png";
 import tesla from "./company/tesla.png";
+import jd_power from "./company/jd_power.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -87,5 +88,6 @@ export {
   roomcal,
   crypto,
   yoshan,
-  vidhi
+  vidhi,
+  jd_power
 };
