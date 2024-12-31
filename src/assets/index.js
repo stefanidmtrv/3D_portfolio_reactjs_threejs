@@ -12,7 +12,6 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
-import laravel from "./tech/laravel.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -21,11 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import cpp from "./tech/cpp.jpg";
-import cs from "./tech/cs.jpg";
 import java from "./tech/java.jpg";
 import python from "./tech/python.jpg";
 import vega_lite from "./tech/vega_lite.jpg";
+import palantir from "./tech/palantir.png";
 
 
 
@@ -61,7 +59,6 @@ export {
   figma,
   git,
   html,
-  laravel,
   javascript,
   mongodb,
   nodejs,
@@ -79,8 +76,6 @@ export {
   tripguide,
   sd_logo,
   swansea_uni,
-  cpp,
-  cs,
   java,
   python,
   vega_lite,
@@ -89,5 +84,6 @@ export {
   crypto,
   yoshan,
   vidhi,
-  jd_power
+  jd_power,
+  palantir
 };
