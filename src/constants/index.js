@@ -32,7 +32,9 @@ import {
   yoshan,
   vidhi,
   jd_power,
-  palantir
+  palantir,
+  datatables,
+  hc_portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -52,15 +54,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Data Processing",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Visualisation",
     icon: backend,
   },
 ];
@@ -71,16 +73,16 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
   },
   {
     name: "Three JS",
@@ -99,8 +101,8 @@ const technologies = [
     icon: vega_lite,
   },
   {
-    name: "python",
-    icon: python,
+    name: "datatables",
+    icon: datatables,
   },
   {
     name: "palantir",
@@ -167,22 +169,22 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ray Tracing in a Weekend",
+    name: "Handball Portfolio",
     description:
-      "A small ray-tracing project based on a tutorial by Peter Shirley.",
+      "A website with information about a Bulgarian Handball Club. It is using Mantine - a React components library.",
     tags: [
       {
-        name: "c++",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "ray-tracing",
+        name: "mantine",
         color: "green-text-gradient",
       },
     ],
-    image: raytracing,
+    image: hc_portfolio,
     source_code_link:
-      "https://github.com/stefanidmtrv/Ray-Tracing-in-one-Weekend",
+      "https://github.com/stefanidmtrv/handball-portfolio",
   },
   {
     name: "Room Calendar",

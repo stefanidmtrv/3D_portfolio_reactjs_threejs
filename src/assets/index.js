@@ -24,6 +24,7 @@ import java from "./tech/java.jpg";
 import python from "./tech/python.jpg";
 import vega_lite from "./tech/vega_lite.jpg";
 import palantir from "./tech/palantir.png";
+import datatables from "./tech/datatables.png"
 
 
 
@@ -38,7 +39,7 @@ import jd_power from "./company/jd_power.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import hc_portfolio from "./hc_portfolio.png"
 import sd_logo from './sd_logo.svg';
 import raytracing from './raytracing.png';
 import roomcal from './roomcal.png';
@@ -85,5 +86,7 @@ export {
   yoshan,
   vidhi,
   jd_power,
-  palantir
+  palantir,
+  datatables,
+  hc_portfolio
 };
