@@ -35,6 +35,7 @@ import starbucks from "./company/starbucks.png";
 import swansea_uni from "./company/swansea_uni.png";
 import tesla from "./company/tesla.png";
 import jd_power from "./company/jd_power.png"
+import milestone from "./company/milestone.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -88,5 +89,6 @@ export {
   jd_power,
   palantir,
   datatables,
-  hc_portfolio
+  hc_portfolio,
+  milestone
 };

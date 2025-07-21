@@ -34,7 +34,8 @@ import {
   jd_power,
   palantir,
   datatables,
-  hc_portfolio
+  hc_portfolio,
+  milestone
 } from "../assets";
 
 export const navLinks = [
@@ -53,6 +54,10 @@ export const navLinks = [
 ];
 
 const services = [
+  {
+    title: "AWS Cloud Development",
+    icon: web,
+  },
   {
     title: "Web Development",
     icon: web,
@@ -112,11 +117,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Junior Cloud DevOps Engineer",
+    company_name: "Milestone Systems",
+    icon: milestone,
+    iconBg: "#FFFFFF",
+    date: "April 2025 - Present",
+    points: [
+      "Develop and maintain a robust cloud-based backend infrastructure that supports centralized monitoring and management of multiple dispersed systems using AWS services such as EC2, ECS, RDS, DynamoDB, SQS.",
+      "Deliver actionable insights through advanced analytics and logging.",
+      "Build a scalable and modular foundation with Terraform and Infrastructure as Code (IaC) principles.",
+    ],
+  },
+  {
     title: "Graduate Software Developer",
     company_name: "JD Power",
     icon: jd_power,
     iconBg: "#FFFFFF",
-    date: "September 2023 - Present",
+    date: "September 2023 - April 2025",
     points: [
       "Build new interactive dashboards and visualisations to illustrate comparative quality analyses that supports J.D Power’s benchmarking survey data",
       "Re-design and improve bespoke customer interfaces to meet their specific needs.",
