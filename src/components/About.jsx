@@ -42,14 +42,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an enthusiastic and resilient Software Developer with a First Class
-        Honours Master's degree from Swansea University. I am passionate about
-        software and web development, and have hands-on experience in
-        JavaScript, HTML, CSS, TypeScript, and Python. My expertise spans web
-        development and data processing, which I have developed through both
-        professional experience and personal projects. I am a strong problem
-        solver and team player, always eager to apply my skills while
-        continuously learning new technologies.
+        Junior Cloud & DevOps Engineer with experience in AWS, Terraform, and
+        CI/CD. Skilled in building and automating scalable cloud infrastructure,
+        monitoring distributed systems, and supporting development teams through
+        modern DevOps practices. Strong foundation in software engineering with
+        MSci Computer Science, eager to grow cloud expertise further. A
+        collaborative problem solver, I thrive in dynamic environments and am
+        always eager to learn new technologies.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
